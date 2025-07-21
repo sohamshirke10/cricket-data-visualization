@@ -55,4 +55,4 @@ https://codebasics.io/courses
 ## or
 
 ## Scan QRCode to explore Live Dashboard
-![QR](https://github.com/SanchayRohad/Cricket-Data-Analytics-and-Visualization/blob/6f9f413ef5180f02e6339caf9abc68a3d7a15641/Screenshots/QRCODE.png)
+![QR](https://github.com/sohamshirke10/Cricket-Data-Analytics-and-Visualization/blob/6f9f413ef5180f02e6339caf9abc68a3d7a15641/Screenshots/QRCODE.png)
