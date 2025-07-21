@@ -52,7 +52,3 @@ https://codebasics.io/courses
 ## powerBI Dashboard
 [Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNjEyNDAyMjYtMTc4Ni00NjRmLThiOGEtODFmNzUzZjg4YTgwIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&pageName=ReportSection3a8cb23b814911c94608)
 
-## or
-
-## Scan QRCode to explore Live Dashboard
-![QR](https://github.com/sohamshirke10/Cricket-Data-Analytics-and-Visualization/blob/6f9f413ef5180f02e6339caf9abc68a3d7a15641/Screenshots/QRCODE.png)
