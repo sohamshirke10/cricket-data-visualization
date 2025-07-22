@@ -7,7 +7,7 @@ In this project, a Power BI Dashboard was developed to analyze and compare the p
 ## Datasource :
 Web Scrapped all the data from [ESPN WorldCup 2024](https://www.espncricinfo.com/series/icc-men-s-t20-world-cup-2024-1411166) using python and jupyter notebook
 
-You can check webscrapping code [HERE](https://github.com/SanchayRohad/Cricket-Data-Analytics-and-Visualization/tree/7da698547179da8de59a419c95bc78637894dcec/Webscraping%20code)
+You can check webscrapping code [HERE](https://github.com/sohamshirke10/Cricket-Data-Analytics-and-Visualization/tree/7da698547179da8de59a419c95bc78637894dcec/Webscraping%20code)
 
 ## Data Collection:
 Scrapped all the data regarding match and world cup and all details about players career using Beautiful Soup library and Jupyter Notebook is used to convert the json files into the dataframes and then these dataframes into csv file for further data analysis on power bi.
