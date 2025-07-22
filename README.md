@@ -1,54 +1,78 @@
-# 𝐂𝐫𝐚𝐟𝐭𝐢𝐧𝐠 𝐭𝐡𝐞 𝐔𝐥𝐭𝐢𝐦𝐚𝐭𝐞 𝐖𝐢𝐧𝐧𝐢𝐧𝐠 𝐗𝐈 𝐟𝐫𝐨𝐦 𝐈𝐂𝐂 𝐓𝟐𝟎 𝐖𝐨𝐫𝐥𝐝 𝐂𝐮𝐩 𝟐𝟎𝟐𝟒
-Cricket Data Analytics and Visualization
+# 🏏 Crafting the Ultimate Winning XI | ICC T20 World Cup 2024  
+**Cricket Data Analytics & Visualization Project**
 
-## Problem Statement :
+## 📌 Overview
+This project showcases end-to-end cricket data analytics and visualization for the ICC Men's T20 World Cup 2024. It includes web scraping, data cleaning, transformation, modeling, and interactive dashboard creation using **Power BI**.  
+The goal is to analyze and compare player performances to build the **Best XI** of the tournament using data-driven insights.
 
-In this project, a Power BI Dashboard was developed to analyze and compare the performances of all players participating in the ICC T20 Men's Cricket World Cup 2024. The dashboard provides an interactive platform to evaluate player performances and facilitates the selection of the best 11 players of the tournament, based on specific performance criteria outlined in the problem statement.
-## Datasource :
-Web Scrapped all the data from [ESPN WorldCup 2024](https://www.espncricinfo.com/series/icc-men-s-t20-world-cup-2024-1411166) using python and jupyter notebook
+---
 
-You can check webscrapping code [HERE]([https://github.com/sohamshirke10/Cricket-Data-Analytics-and-Visualization/tree/7da698547179da8de59a419c95bc78637894dcec/Webscraping%20code](https://github.com/sohamshirke10/cricket-data-visualization/tree/main/Webscraping%20code))
+## 🧠 Problem Statement
+Develop a dashboard that helps evaluate all players who participated in the ICC T20 World Cup 2024 and select the best-performing 11 players. This is done by analyzing match-wise and career-wise stats using performance metrics such as strike rate, average, economy rate, and wickets taken.
 
-## Data Collection:
-Scrapped all the data regarding match and world cup and all details about players career using Beautiful Soup library and Jupyter Notebook is used to convert the json files into the dataframes and then these dataframes into csv file for further data analysis on power bi.
+---
 
-## Data Transformation:
-Performed initial data cleaning after scrapping such as player name correction, handle missing value, match id linking etc. using Pandas. Transformed the final data for dashboard using Power Query of Power BI.
+## 🔗 Data Source  
+All data has been **web scraped** from the official [ESPN Cricinfo World Cup 2024 Series Page](https://www.espncricinfo.com/series/icc-men-s-t20-world-cup-2024-1411166) using **Python** and **BeautifulSoup**.
 
-## Data Modelling:
-Connected all the datasets with based on some defined primary keys such as team and match ids. Also, created many measures, calculated columns and parameters for data analysis and dash boarding using DAX.
+📂 Web scraping code is available here:  
+👉 [`Webscraping Code`](https://github.com/sohamshirke10/cricket-data-visualization/tree/main/Webscraping%20code)
 
-## Reports:
-Data visualization for the dataset was done using Microsoft Power BI Desktop:
+---
 
-## Player Analysis
-![Openers](https://github.com/SanchayRohad/Cricket-Data-Analytics-and-Visualization/blob/6f9f413ef5180f02e6339caf9abc68a3d7a15641/Screenshots/front%20page.png)
-![Middle Order](https://github.com/SanchayRohad/Cricket-Data-Analytics-and-Visualization/blob/6f9f413ef5180f02e6339caf9abc68a3d7a15641/Screenshots/Middle%20Order.png)
-![Allrounders](https://github.com/SanchayRohad/Cricket-Data-Analytics-and-Visualization/blob/f666c47aec29f51a90f7f67b081f4609392b3e36/Screenshots/Allrounders.png)
-![Bowlers](https://github.com/SanchayRohad/Cricket-Data-Analytics-and-Visualization/blob/6f9f413ef5180f02e6339caf9abc68a3d7a15641/Screenshots/Bowlers.png)
-![PlayerInfo](https://github.com/SanchayRohad/Cricket-Data-Analytics-and-Visualization/blob/main/Screenshots/Player%20Summary%20throughout%20worldcup.png)
-![Final 11](https://github.com/SanchayRohad/Cricket-Data-Analytics-and-Visualization/blob/6f9f413ef5180f02e6339caf9abc68a3d7a15641/Screenshots/Final%2011.png)
+## 📥 Data Collection
+- Extracted match-wise and player-wise performance stats
+- Gathered player career data for better comparison
+- Used **Jupyter Notebook** and **BeautifulSoup** for scraping
+- Converted JSON to Pandas DataFrames and then to CSVs for analysis
 
-## Tools, Software and Libraries :
-1.Jupyter Notebook
+---
 
-2.Python
+## 🧹 Data Cleaning & Transformation
+- Cleaned player names, handled missing/null values, and linked match & player IDs
+- Used **Pandas** for cleaning and **Power BI Power Query** for data shaping
+- Ensured consistency and usability of datasets for dashboarding
 
-3.Pandas
+---
 
-4.Webscraping
+## 🧩 Data Modeling
+- Designed relationships using keys like `match_id`, `player_id`, and `team`
+- Created **DAX measures**, **calculated columns**, and **parameters** to support analysis
+- Optimized model for responsiveness and interactivity in Power BI
 
-5.Beautifual Soup
+---
 
-6.Power Query Editor
+## 📊 Interactive Reports
 
-7.Power BI
+### 🎯 Player Performance Analysis
 
-8.Excel
+| Section | Screenshot |
+|--------|------------|
+| **Front Page** | ![Front Page](https://raw.githubusercontent.com/sohamshirke10/cricket-data-visualization/main/Screenshots/front%20page.png) |
+| **Middle Order** | ![Middle Order](https://raw.githubusercontent.com/sohamshirke10/cricket-data-visualization/main/Screenshots/Middle%20Order.png) |
+| **Finishers** | ![Finishers](https://raw.githubusercontent.com/sohamshirke10/cricket-data-visualization/main/Screenshots/Finishers.png) |
+| **All-Rounders** | ![Allrounders](https://raw.githubusercontent.com/sohamshirke10/cricket-data-visualization/main/Screenshots/Allrounders.png) |
+| **Bowlers** | ![Bowlers](https://raw.githubusercontent.com/sohamshirke10/cricket-data-visualization/main/Screenshots/Bowlers.png) |
+| **Player Summary** | ![Player Summary](https://raw.githubusercontent.com/sohamshirke10/cricket-data-visualization/main/Screenshots/Player%20Summary%20throughout%20worldcup.png) |
+| **Final XI** | ![Final XI](https://raw.githubusercontent.com/sohamshirke10/cricket-data-visualization/main/Screenshots/Final%2011.png) |
 
-## References
-https://codebasics.io/courses
+---
 
-## powerBI Dashboard
-[Live Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNjEyNDAyMjYtMTc4Ni00NjRmLThiOGEtODFmNzUzZjg4YTgwIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&pageName=ReportSection3a8cb23b814911c94608)
+## 🛠 Tools & Technologies
+- **Python**
+- **Jupyter Notebook**
+- **BeautifulSoup (Web Scraping)**
+- **Pandas**
+- **Power BI**
+- **Power Query Editor**
+- **Excel**
 
+---
+
+## 📊 Power BI Dashboard (Live)
+👉 [View Interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiNjEyNDAyMjYtMTc4Ni00NjRmLThiOGEtODFmNzUzZjg4YTgwIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9&pageName=ReportSection3a8cb23b814911c94608)
+
+---
+
+## 🎓 References
+- [Codebasics.io - Power BI Project](https://codebasics.io/courses)
